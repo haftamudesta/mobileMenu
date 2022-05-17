@@ -1,8 +1,6 @@
 const hambergur = document.querySelector('.allign');
 const contacts = document.querySelector('.contacts');
 const closes = document.querySelector('.close');
-const symbols = document.querySelector('.symbols');
-const time = document.querySelector('.time');
 const main = document.querySelector('.main');
 hambergur.addEventListener('click', () => {
   hambergur.classList.toggle('close');
@@ -10,8 +8,7 @@ hambergur.addEventListener('click', () => {
   hambergur.style.display = 'none';
   contacts.style.display = 'block';
   main.style.opacity = '0';
-  
-});
+ });
 
 closes.addEventListener('click', () => {
   closes.classList.toggle('allign');
@@ -19,8 +16,7 @@ closes.addEventListener('click', () => {
   closes.style.display = 'none';
   contacts.style.display = 'none';
   main.style.opacity = '1';
-  
-});
+ });
 contacts.addEventListener('click', () => {
   hambergur.style.display = 'block';
   closes.style.display = 'none';
