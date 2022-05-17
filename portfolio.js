@@ -8,7 +8,7 @@ hambergur.addEventListener('click', () => {
   hambergur.style.display = 'none';
   contacts.style.display = 'block';
   main.style.opacity = '0';
- });
+});
 
 closes.addEventListener('click', () => {
   closes.classList.toggle('allign');
@@ -16,7 +16,7 @@ closes.addEventListener('click', () => {
   closes.style.display = 'none';
   contacts.style.display = 'none';
   main.style.opacity = '1';
- });
+});
 contacts.addEventListener('click', () => {
   hambergur.style.display = 'block';
   closes.style.display = 'none';
