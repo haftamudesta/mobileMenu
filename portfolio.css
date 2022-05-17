@@ -1,26 +1,26 @@
 @font-face {
   font-family: "Roboto";
-  src: url(fonts/Roboto-Regular.ttf) format(ttf);
+  src: url(fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
   font-family: "Crete Round";
-  src: url(fonts/CreteRound-Regular.ttf) format(ttf);
+  src: url(fonts/CreteRound-Regular.ttf);
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url(fonts/Poppins-Regular.ttf) format(ttf);
+  src: url(fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
   font-family: "Inter";
-  src: url(fonts/Inter-VariableFont_slnt\,wght.ttf) format(ttf);
+  src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
 @font-face {
   font-family: "InaiMathi";
-  src: url(fonts/Poppins-Bold.ttf) format(ttf);
+  src: url(fonts/Poppins-Bold.ttf);
 }
 
 html {
