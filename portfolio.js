@@ -23,9 +23,3 @@ contacts.addEventListener('click', () => {
   contacts.style.display = 'none';
   main.style.opacity = '1';
 });
-document.querySelectorAll('.nav-links').forEach(e => e.addEventListener('click', () => {
-  hambergur.style.display = 'block';
-  closes.style.display = 'none';
-  contacts.style.display = 'none';
-  main.style.opacity = '1';
-}));
